@@ -35,7 +35,7 @@ class Homepage extends React.Component{
         id: 'nature1',
         tittle: 'The yards',
         catagory: 'nature',
-        src: nature1
+        src: nature7
     }
     
 
