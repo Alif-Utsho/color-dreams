@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import headerimage from './assests/header-image.jpg'
 import logo from './assests/logo.png'
 
@@ -16,9 +17,9 @@ const Header = () => {
                         </div>
                         <nav className="col-md-6 col-12 tm-nav">
                             <ul className="tm-nav-ul">
-                                <li className="tm-nav-li"><a href="/" className="tm-nav-link active">Home</a></li>
-                                <li className="tm-nav-li"><a href="/about" className="tm-nav-link">About</a></li>
-                                <li className="tm-nav-li"><a href="/contact" className="tm-nav-link">Contact</a></li>
+                                <li className="tm-nav-li"><NavLink to="/" className="tm-nav-link active">Home</NavLink></li>
+                                <li className="tm-nav-li"><NavLink to="/about" className="tm-nav-link">About</NavLink></li>
+                                <li className="tm-nav-li"><NavLink to="/contact" className="tm-nav-link">Contact</NavLink></li>
                             </ul>
                         </nav>
                     </div>

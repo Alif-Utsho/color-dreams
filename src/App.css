@@ -851,3 +851,8 @@ address {
 .panel p {
   padding: 5px 20px 30px;
 }
+
+.img-price{
+  font-size: 1.20rem;
+  color: #2F956D;
+}

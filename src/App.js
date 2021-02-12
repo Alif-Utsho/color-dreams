@@ -1,13 +1,11 @@
 import './App.css';
 
-import Header from './components/header'
-import Homepage from './components/pages/homepage/homepage'
+import RouterMod from '../src/router'
 
 function App() {
   return (
     <div className='container'>
-      <Header />
-      <Homepage/>
+      <RouterMod/>
     </div>
   );
 }
