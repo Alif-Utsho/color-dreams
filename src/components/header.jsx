@@ -1,11 +1,22 @@
 import { NavLink } from 'react-router-dom'
-import headerimage from './assests/header-image.jpg'
+import { Parallax, Background } from 'react-parallax';
+
+import headerimage from './assests/img/n4.jpg'
 import logo from './assests/logo.png'
 
 const Header = () => {
     return (
         <div className="placeholder">
-            <div className="parallax-window" data-parallax="scroll" data-image-src={ headerimage }>
+            <div className="parallax-window">
+                <Parallax
+                    blur={{min: -10, max: 10}}
+                    className="parallax-window"
+                    bgImage={headerimage}
+                    bgImageAlt="the dog"
+                    strength={-175}
+                >
+                    <div style={{ height: '200px' }} />
+                </Parallax>
                 <div className="tm-header">
                     <div className="row tm-header-inner">
                         <div className="col-md-6 col-12">
@@ -17,9 +28,32 @@ const Header = () => {
                         </div>
                         <nav className="col-md-6 col-12 tm-nav">
                             <ul className="tm-nav-ul">
-                                <li className="tm-nav-li"><NavLink to="/" className="tm-nav-link active">Home</NavLink></li>
-                                <li className="tm-nav-li"><NavLink to="/about" className="tm-nav-link">About</NavLink></li>
-                                <li className="tm-nav-li"><NavLink to="/contact" className="tm-nav-link">Contact</NavLink></li>
+                                <li className="tm-nav-li">
+                                    <NavLink
+                                        to="/"
+                                        className="tm-nav-link"
+                                    >
+                                        Home
+                                    </NavLink>
+                                </li>
+                                
+                                <li className="tm-nav-li">
+                                    <NavLink
+                                        to="/about"
+                                        className="tm-nav-link"
+                                    >
+                                        About
+                                    </NavLink>
+                                </li>
+                                
+                                <li className="tm-nav-li">
+                                    <NavLink
+                                        to="/contact"
+                                        className="tm-nav-link"
+                                    >
+                                        Contact
+                                    </NavLink>
+                                </li>
                             </ul>
                         </nav>
                     </div>

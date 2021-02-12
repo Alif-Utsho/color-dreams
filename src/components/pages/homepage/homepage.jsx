@@ -2,6 +2,7 @@ import React from 'react'
 
 import Gallery from './gallery'
 import Details from './details'
+import HeaderText from '../../common/headerText'
 
 import nature1 from '../../assests/img/n1.jpg'
 import nature2 from '../../assests/img/n2.jpg'
@@ -144,11 +145,15 @@ class Homepage extends React.Component {
         details: [
             {
                 id: 'dts1',
-                tittle: '',
-                desc: '',
+                tittle: 'Color your Dreams',
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur consequatur voluptas porro tenetur, tempora dignissimos voluptatum nihil distinctio dicta? Quo, velit? Reprehenderit quidem vitae molestias placeat nemo, omnis quas!',
                 src: details1
             }
         ],
+        headerText: {
+            tittle: 'Welcome to Color Dreams',
+            text: 'Color Dreams is a page for art lovers and buyers. You can order your own paintings or can purchase from the readymades...'
+        },
         filter: 'nature'
     }
     
@@ -162,45 +167,51 @@ class Homepage extends React.Component {
         let catagory = this.state.filter
         let images = this.state.images.filter(img => catagory === img.catagory)
         return images.map(img => {
-            return <Gallery images={img} />
+            return <Gallery
+                key={img.id}
+                images={img}
+            />
         })
     }
 
     getDetails = () => {
         return this.state.details.map(dts => {
-            return <Details details={dts}/>
+            return <Details
+                key={dts.id}
+                details={dts}
+            />
         })
     }
 
     render() {
         return (
             <main>
-                <header class="row tm-welcome-section">
-                    <h2 class="col-12 text-center tm-section-title">Welcome to Color Dreams</h2>
-                    <p class="col-12 text-center">Color Dreams is a page for art lovers and buyers. You can order your own paintings or can purchase from the readymades...</p>
-                </header>
+                
+                <HeaderText
+                    headerText={this.state.headerText}
+                />
 
-                <div class="tm-paging-links">
+                <div className="tm-paging-links">
                     <nav>
                         <ul>
-                            <li class="tm-paging-item">
+                            <li className="tm-paging-item">
                                 <button
-                                    class={this.state.filter==='nature' ? "btn tm-paging-link active" : "btn tm-paging-link"}
+                                    className={this.state.filter==='nature' ? "btn tm-paging-link active" : "btn tm-paging-link"}
                                     onClick={() => this.filterImages('nature')}
                                 >Nature
                                 </button>
                             </li>
                             
-                            <li class="tm-paging-item">
+                            <li className="tm-paging-item">
                                 <button
-                                    class={this.state.filter === 'sketch' ? "btn tm-paging-link active" : "btn tm-paging-link"}
+                                    className={this.state.filter === 'sketch' ? "btn tm-paging-link active" : "btn tm-paging-link"}
                                     onClick={() => this.filterImages('sketch')}
                                 >Sketch
                                 </button></li>
                             
-                            <li class="tm-paging-item">
+                            <li className="tm-paging-item">
                                 <button
-                                    class={this.state.filter === 'canvas' ? "btn tm-paging-link active" : "btn tm-paging-link"}
+                                    className={this.state.filter === 'canvas' ? "btn tm-paging-link active" : "btn tm-paging-link"}
                                     onClick={() => this.filterImages('canvas')}
                                 >Canvas
                                 </button>

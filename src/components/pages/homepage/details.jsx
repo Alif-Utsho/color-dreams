@@ -2,23 +2,23 @@
 
 const Details = ({details}) => {
     return (
-        <div class="tm-section tm-container-inner mt-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <figure class="tm-description-figure">
+        <div className="tm-section tm-container-inner mt-5">
+            <div className="row">
+                <div className="col-md-6">
+                    <figure className="tm-description-figure">
                         <img
                             src={details.src}
                             alt="Image"
-                            class="img-fluid m-2"
-                            style={{height:'15rem'},{width:'20rem'}}
+                            className="img-fluid m-2"
+                            style={{height:'14rem'}}
                         />
                     </figure>
                 </div>
-                <div class="col-md-6">
-                    <div class="tm-description-box">
-                        <h4 class="tm-gallery-title">{details.tittle}</h4>
-                        <p class="tm-mb-45">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi nisi repellat voluptatem laboriosam sit quis sed repudiandae voluptatum quidem, nulla exercitationem quasi adipisci aspernatur minus earum esse explicabo reiciendis! Impedit? Thank you.</p>
-                        <a href="/about" class="tm-btn tm-btn-default tm-right">Read More</a>
+                <div className="col-md-6">
+                    <div className="tm-description-box">
+                        <h4 className="tm-gallery-title">{details.tittle}</h4>
+                        <p className="tm-mb-45">{details.text}</p>
+                        <a href="/about" className="tm-btn tm-btn-default tm-right">Read More</a>
                     </div>
                 </div>
             </div>

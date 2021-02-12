@@ -13,7 +13,7 @@ const Gallery = ({ images }) => {
             />
             <div className="card-body">
                 <p className="card-text tm-gallery-title">{images.tittle}</p>
-                {images.price ? <p class="img-price">৳ {images.price}</p> : ''}
+                {images.price ? <p className="img-price">৳ {images.price}</p> : ''}
             </div>
         </div>
     )
