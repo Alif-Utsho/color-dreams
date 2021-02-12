@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/color-dreams/static/css/main.350d23e5.chunk.css",
-    "main.js": "/color-dreams/static/js/main.783a08fc.chunk.js",
-    "main.js.map": "/color-dreams/static/js/main.783a08fc.chunk.js.map",
-    "runtime-main.js": "/color-dreams/static/js/runtime-main.4d7a797a.js",
-    "runtime-main.js.map": "/color-dreams/static/js/runtime-main.4d7a797a.js.map",
-    "static/js/2.75f383cf.chunk.js": "/color-dreams/static/js/2.75f383cf.chunk.js",
-    "static/js/2.75f383cf.chunk.js.map": "/color-dreams/static/js/2.75f383cf.chunk.js.map",
-    "static/js/3.205a3550.chunk.js": "/color-dreams/static/js/3.205a3550.chunk.js",
-    "static/js/3.205a3550.chunk.js.map": "/color-dreams/static/js/3.205a3550.chunk.js.map",
+    "main.js": "/color-dreams/static/js/main.a693b59a.chunk.js",
+    "main.js.map": "/color-dreams/static/js/main.a693b59a.chunk.js.map",
+    "runtime-main.js": "/color-dreams/static/js/runtime-main.6f9a3571.js",
+    "runtime-main.js.map": "/color-dreams/static/js/runtime-main.6f9a3571.js.map",
+    "static/js/2.befddea3.chunk.js": "/color-dreams/static/js/2.befddea3.chunk.js",
+    "static/js/2.befddea3.chunk.js.map": "/color-dreams/static/js/2.befddea3.chunk.js.map",
+    "static/js/3.8fd66b1e.chunk.js": "/color-dreams/static/js/3.8fd66b1e.chunk.js",
+    "static/js/3.8fd66b1e.chunk.js.map": "/color-dreams/static/js/3.8fd66b1e.chunk.js.map",
     "index.html": "/color-dreams/index.html",
     "static/css/main.350d23e5.chunk.css.map": "/color-dreams/static/css/main.350d23e5.chunk.css.map",
-    "static/js/2.75f383cf.chunk.js.LICENSE.txt": "/color-dreams/static/js/2.75f383cf.chunk.js.LICENSE.txt",
+    "static/js/2.befddea3.chunk.js.LICENSE.txt": "/color-dreams/static/js/2.befddea3.chunk.js.LICENSE.txt",
     "static/media/c1.3fbe47f2.jpg": "/color-dreams/static/media/c1.3fbe47f2.jpg",
     "static/media/c2.72d7ba63.jpg": "/color-dreams/static/media/c2.72d7ba63.jpg",
     "static/media/c3.9a7d34f7.jpg": "/color-dreams/static/media/c3.9a7d34f7.jpg",
     "static/media/details1.7d91234f.jpg": "/color-dreams/static/media/details1.7d91234f.jpg",
-    "static/media/header-image.0f0f71fb.jpg": "/color-dreams/static/media/header-image.0f0f71fb.jpg",
     "static/media/n1.899e78d8.jpg": "/color-dreams/static/media/n1.899e78d8.jpg",
     "static/media/n2.2d19531c.jpg": "/color-dreams/static/media/n2.2d19531c.jpg",
     "static/media/n3.8f0f8e1b.jpg": "/color-dreams/static/media/n3.8f0f8e1b.jpg",
@@ -33,9 +32,9 @@
     "static/media/s6.4e52ef82.jpg": "/color-dreams/static/media/s6.4e52ef82.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d7a797a.js",
-    "static/js/2.75f383cf.chunk.js",
+    "static/js/runtime-main.6f9a3571.js",
+    "static/js/2.befddea3.chunk.js",
     "static/css/main.350d23e5.chunk.css",
-    "static/js/main.783a08fc.chunk.js"
+    "static/js/main.a693b59a.chunk.js"
   ]
 }
