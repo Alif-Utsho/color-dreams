@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/color-dreams/static/css/main.350d23e5.chunk.css",
-    "main.js": "/color-dreams/static/js/main.a693b59a.chunk.js",
-    "main.js.map": "/color-dreams/static/js/main.a693b59a.chunk.js.map",
+    "main.js": "/color-dreams/static/js/main.3f3692a7.chunk.js",
+    "main.js.map": "/color-dreams/static/js/main.3f3692a7.chunk.js.map",
     "runtime-main.js": "/color-dreams/static/js/runtime-main.6f9a3571.js",
     "runtime-main.js.map": "/color-dreams/static/js/runtime-main.6f9a3571.js.map",
-    "static/js/2.befddea3.chunk.js": "/color-dreams/static/js/2.befddea3.chunk.js",
-    "static/js/2.befddea3.chunk.js.map": "/color-dreams/static/js/2.befddea3.chunk.js.map",
+    "static/js/2.c3a959d6.chunk.js": "/color-dreams/static/js/2.c3a959d6.chunk.js",
+    "static/js/2.c3a959d6.chunk.js.map": "/color-dreams/static/js/2.c3a959d6.chunk.js.map",
     "static/js/3.8fd66b1e.chunk.js": "/color-dreams/static/js/3.8fd66b1e.chunk.js",
     "static/js/3.8fd66b1e.chunk.js.map": "/color-dreams/static/js/3.8fd66b1e.chunk.js.map",
     "index.html": "/color-dreams/index.html",
     "static/css/main.350d23e5.chunk.css.map": "/color-dreams/static/css/main.350d23e5.chunk.css.map",
-    "static/js/2.befddea3.chunk.js.LICENSE.txt": "/color-dreams/static/js/2.befddea3.chunk.js.LICENSE.txt",
+    "static/js/2.c3a959d6.chunk.js.LICENSE.txt": "/color-dreams/static/js/2.c3a959d6.chunk.js.LICENSE.txt",
     "static/media/c1.3fbe47f2.jpg": "/color-dreams/static/media/c1.3fbe47f2.jpg",
     "static/media/c2.72d7ba63.jpg": "/color-dreams/static/media/c2.72d7ba63.jpg",
     "static/media/c3.9a7d34f7.jpg": "/color-dreams/static/media/c3.9a7d34f7.jpg",
-    "static/media/details1.7d91234f.jpg": "/color-dreams/static/media/details1.7d91234f.jpg",
+    "static/media/details1.bc527e8f.jpg": "/color-dreams/static/media/details1.bc527e8f.jpg",
+    "static/media/hena.20d14a59.jpg": "/color-dreams/static/media/hena.20d14a59.jpg",
+    "static/media/historyImg.4ca6568f.jpg": "/color-dreams/static/media/historyImg.4ca6568f.jpg",
     "static/media/n1.899e78d8.jpg": "/color-dreams/static/media/n1.899e78d8.jpg",
     "static/media/n2.2d19531c.jpg": "/color-dreams/static/media/n2.2d19531c.jpg",
     "static/media/n3.8f0f8e1b.jpg": "/color-dreams/static/media/n3.8f0f8e1b.jpg",
@@ -24,17 +26,19 @@
     "static/media/n6.b08ba52c.jpg": "/color-dreams/static/media/n6.b08ba52c.jpg",
     "static/media/n7.f8d75c6b.jpg": "/color-dreams/static/media/n7.f8d75c6b.jpg",
     "static/media/n8.a9c40b04.jpg": "/color-dreams/static/media/n8.a9c40b04.jpg",
+    "static/media/parallax_about.f5cbb88c.jpg": "/color-dreams/static/media/parallax_about.f5cbb88c.jpg",
     "static/media/s1.d5a7c07f.jpg": "/color-dreams/static/media/s1.d5a7c07f.jpg",
     "static/media/s2.6ac1e6f4.jpg": "/color-dreams/static/media/s2.6ac1e6f4.jpg",
     "static/media/s3.f0ba19bd.jpg": "/color-dreams/static/media/s3.f0ba19bd.jpg",
     "static/media/s4.dcca0afd.jpg": "/color-dreams/static/media/s4.dcca0afd.jpg",
     "static/media/s5.29d33ef9.jpg": "/color-dreams/static/media/s5.29d33ef9.jpg",
-    "static/media/s6.4e52ef82.jpg": "/color-dreams/static/media/s6.4e52ef82.jpg"
+    "static/media/s6.4e52ef82.jpg": "/color-dreams/static/media/s6.4e52ef82.jpg",
+    "static/media/utsho.903c69ee.jpg": "/color-dreams/static/media/utsho.903c69ee.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6f9a3571.js",
-    "static/js/2.befddea3.chunk.js",
+    "static/js/2.c3a959d6.chunk.js",
     "static/css/main.350d23e5.chunk.css",
-    "static/js/main.a693b59a.chunk.js"
+    "static/js/main.3f3692a7.chunk.js"
   ]
 }
