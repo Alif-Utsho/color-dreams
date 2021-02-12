@@ -10,7 +10,6 @@ const Details = ({details}) => {
                             src={details.src}
                             alt="Image"
                             className="img-fluid m-2"
-                            style={{height:'14rem'}}
                         />
                     </figure>
                 </div>

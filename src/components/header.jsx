@@ -12,7 +12,7 @@ const Header = () => {
                     blur={{min: -10, max: 10}}
                     className="parallax-window"
                     bgImage={headerimage}
-                    bgImageAlt="the dog"
+                    bgImageAlt="the art"
                     strength={-175}
                 >
                     <div style={{ height: '200px' }} />

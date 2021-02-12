@@ -24,7 +24,7 @@ import canvas1 from '../../assests/img/c1.jpg'
 import canvas2 from '../../assests/img/c2.jpg'
 import canvas3 from '../../assests/img/c3.jpg'
 
-import details1 from '../../assests/img/details1.jpg'
+import details1 from '../../assests/details1.jpg'
 
 
 class Homepage extends React.Component {
@@ -152,7 +152,7 @@ class Homepage extends React.Component {
         ],
         headerText: {
             tittle: 'Welcome to Color Dreams',
-            text: 'Color Dreams is a page for art lovers and buyers. You can order your own paintings or can purchase from the readymades...'
+            text: 'Color Dreams is a page for art lovers and buyers. You can order your own paintings or can purchase from the readymades.'
         },
         filter: 'nature'
     }
