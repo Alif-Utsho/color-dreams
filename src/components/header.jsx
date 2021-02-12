@@ -13,7 +13,7 @@ const Header = () => {
                     className="parallax-window"
                     bgImage={headerimage}
                     bgImageAlt="the art"
-                    strength={-175}
+                    strength={-210}
                 >
                     <div style={{ height: '200px' }} />
                 </Parallax>

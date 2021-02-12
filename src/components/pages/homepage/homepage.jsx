@@ -89,55 +89,64 @@ class Homepage extends React.Component {
             },
             {
                 id: 'skt1',
-                tittle: '',
+                tittle: 'Red Water',
+                price: 1200,
                 catagory: 'sketch',
                 src: sketch1
             },
             {
                 id: 'skt2',
-                tittle: '',
+                tittle: 'Poched',
+                price: 1000,
                 catagory: 'sketch',
                 src: sketch2
             },
             {
                 id: 'skt3',
-                tittle: '',
+                tittle: 'Five Hundred',
+                price: 500,
                 catagory: 'sketch',
                 src: sketch3
             },
             {
                 id: 'skt4',
-                tittle: '',
+                tittle: 'Logan',
+                price: 1200,
                 catagory: 'sketch',
                 src: sketch4
             },
             {
                 id: 'skt5',
-                tittle: '',
+                tittle: 'Portrait',
+                price: 3000,
                 catagory: 'sketch',
                 src: sketch5
             },
             {
                 id: 'skt6',
-                tittle: '',
+                tittle: 'Portrait',
+                price: 3200,
                 catagory: 'sketch',
                 src: sketch6
             },
             {
                 id: 'can1',
-                tittle: '',
+                tittle: 'Canvas 1',
+                price: 1500,
                 catagory: 'canvas',
                 src: canvas1
             },
             {
                 id: 'can2',
-                tittle: '',
+                tittle: 'Canvas 2',
+                price: 1500,
                 catagory: 'canvas',
                 src: canvas2
             },
             {
                 id: 'can3',
-                tittle: '',
+                tittle: 'Canvas 3',
+                price: 2500,
                 catagory: 'canvas',
                 src: canvas3
             }

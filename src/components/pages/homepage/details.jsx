@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 
 
 const Details = ({details}) => {
@@ -17,7 +18,7 @@ const Details = ({details}) => {
                     <div className="tm-description-box">
                         <h4 className="tm-gallery-title">{details.tittle}</h4>
                         <p className="tm-mb-45">{details.text}</p>
-                        <a href="/about" className="tm-btn tm-btn-default tm-right">Read More</a>
+                        <NavLink to="/about" className="tm-btn tm-btn-default tm-right">Read More</NavLink>
                     </div>
                 </div>
             </div>
