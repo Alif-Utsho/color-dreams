@@ -93,8 +93,8 @@ class About extends React.Component{
         },
         history: {
             tittle: 'History of Color Dreams',
-            text1: 'Sed ligula risus, interdum aliquet imperdiet sit amet, auctor sit amet justo. Maecenas posuere lorem id augue interdum vehicula. Praesent sed leo eget libero ultricies congue.',
-            text2: 'Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to for additional permissions about our templates. Thank you.',
+            text1: 'Color dreams is kinda dreams for a girl who wants to give her paintings a new platform to be showed up before the world.',
+            text2: 'She wanted to be independent mentally as early as possible because she had a dream. So she started with her own passion, own work which she loved to do most. She started the journey named \"COLOR DREAMS\"',
             src: historyImg
         }
     }

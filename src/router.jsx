@@ -18,7 +18,7 @@ const RouterMod = () => {
 
                 <Route exact path="/about" component={About} />
                 <Route exact path="/contact" component={Contacts} />
-                <Redirect to="/" />
+                <Redirect to="/"/>
 
             </Switch>
 

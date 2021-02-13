@@ -155,7 +155,7 @@ class Homepage extends React.Component {
             {
                 id: 'dts1',
                 tittle: 'Color your Dreams',
-                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur consequatur voluptas porro tenetur, tempora dignissimos voluptatum nihil distinctio dicta? Quo, velit? Reprehenderit quidem vitae molestias placeat nemo, omnis quas!',
+                text: 'Color Dreams is a page for art lovers and buyers. You can order your own paintings or can purchase from the readymades.',
                 src: details1
             }
         ],
