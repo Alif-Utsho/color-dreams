@@ -40,7 +40,7 @@ class Homepage extends React.Component {
             },
             {
                 id: 'nat2',
-                tittle: 'Moutains',
+                tittle: 'Mountains',
                 catagory: 'nature',
                 price: 2900,
                 src: nature2
